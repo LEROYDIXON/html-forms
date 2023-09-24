@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin-left: 10px;
+  }
+
+
+  label {
+    display: flex;
+  }
+
+  p,
+  label {
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+
+  input {
+    margin: 0.4rem;
+  }
+
+  .lang, .comments{
+    margin-top: 7px
+  }

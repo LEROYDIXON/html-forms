@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <section class="wrapper">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Add User</legend>
+                <!--first name -->
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname">
+                <!--last name -->
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname">
+                <!--email -->
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required>
+                <input type="submit" value="Submit">
+                <!--drop down -->
+                <label for="status">Status</label>
+                <select name="status" id="status">
+                    <option value="">--Select Your Status--</option>
+                    <option value="">Student</option>
+                    <option value="">Teacher</option>
+                    <option value="">Guest</option>
+                </select>
+                <!--Radio Buttons -->
+                <div class="lang">
+                    <p>Choose your favorite programming language</p>
+                    <input type="radio" id="rad1" name="fav-language" value="HTML" <label for="rad1">HTML</label><br>
+                    <input type="radio" id="rad2" name="fav-language" value="CSS" <label for="rad2">CSS</label><br>
+                    <input type="radio" id="rad3" name="fav-language" value="JavaScript" <label
+                        for="rad3">Javascript</label>
+                </div>
+                <!--Text Area-->
+                <div class="comments">
+                    <p><label for="comments">Comments</label></p>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                </div>
+                <!--Submission-->
+                <div class="submissions">
+                    <input type="checkbox" id="subscibeNews" name="subscribe" value="newsletter" <label
+                        for="subscribeNews">Sign up for newsletter</label>
+                    </br>
+                    <input type="checkbox" id="subscribeNews" name="subscribe" value="terms" <label for="terms">Agree to
+                    terms
+                    and condition
+                    </label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
